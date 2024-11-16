@@ -46,3 +46,35 @@
     clip-path: circle(47% at 50% 50%); /* Circle with center at the middle */
     object-fit: cover;
   }
+
+  /* Mobile responsiveness */
+@media (max-width: 768px) {
+  .nav-links {
+      flex-direction: column; /* Stack links vertically */
+      gap: 1rem; /* Reduce spacing between links */
+  }
+
+  .nav-links li a {
+      font-size: 1.2rem; /* Adjust link size */
+  }
+
+  .logo {
+      width: 60px; /* Reduce logo size */
+      height: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-links {
+      gap: 0.5rem; /* Further reduce spacing */
+  }
+
+  .nav-links li a {
+      font-size: 1rem; /* Smaller font for smaller screens */
+  }
+
+  .logo {
+      width: 50px; /* Further reduce logo size */
+      height: 50px;
+  }
+}
