@@ -1,28 +1,109 @@
+/* Overall Home Section */
 .home {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 100vh; /* Full height of the viewport */
-    /* background: linear-gradient(to right, #B2FFFF, #0047AB); Nice gradient */
-    background-color: whitesmoke;
+    height: 100vh;
+    background: linear-gradient(to right, #f8f9fa, #e3f2fd);
     color: navy;
-    padding: 0 20px;
+    padding: 20px;
 }
 
+/* Title */
 .home-title {
-    font-size: 3rem; /* Big and bold */
+    font-size: 3.5rem;
     font-weight: 700;
     text-transform: uppercase;
-    margin: 0 0 20px; /* Add spacing below title */
-    font-family: 'Arial', sans-serif; /* Use a clean font */
+    margin: 0 0 20px;
+    font-family: 'Arial', sans-serif;
 }
 
+/* Slogan */
 .home-slogan {
     font-size: 1.5rem;
     font-weight: 300;
     font-style: italic;
-    margin: 0;
-    font-family: 'Georgia', serif; /* Optional: Different font for slogan */
+    margin: 0 0 40px;
+    font-family: 'Georgia', serif;
+}
+
+/* Cards Section */
+.cards-section {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+/* Individual Card */
+.card {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+/* Card Hover Effect */
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Card Titles and Descriptions */
+.card h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: navy;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .home-title {
+        font-size: 2.5rem; /* Reduce font size for smaller screens */
+    }
+
+    .home-slogan {
+        font-size: 1.2rem; /* Adjust slogan font size */
+    }
+
+    .cards-section {
+        flex-direction: column; /* Stack cards vertically */
+        gap: 10px; /* Reduce spacing between cards */
+    }
+
+    .card {
+        width: 90%; /* Make cards take up more width on smaller screens */
+        padding: 15px; /* Adjust padding */
+    }
+}
+
+@media (max-width: 480px) {
+    .home-title {
+        font-size: 2rem; /* Further reduce font size for very small screens */
+    }
+
+    .home-slogan {
+        font-size: 1rem;
+    }
+
+    .card h2 {
+        font-size: 1.5rem; /* Adjust card title size */
+    }
+
+    .card p {
+        font-size: 0.9rem; /* Adjust card description size */
+    }
 }
