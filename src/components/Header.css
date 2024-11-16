@@ -19,7 +19,9 @@
   .nav-links {
     list-style-type: none;
     display: flex;
-    gap: 6rem;
+    gap: 7rem;
+    justify-content: center;
+    align-items: center;
   }
   
   /* Styling individual links */
@@ -35,5 +37,12 @@
   
   /* Hover effect */
   .nav-links li a:hover {
-    color: #ff7e5f;
+    color: #0047AB;
+  }
+
+  .logo {
+    width: 80px; /* Adjust to desired size */
+    height: 80px; /* Same as width for a perfect circle */
+    clip-path: circle(47% at 50% 50%); /* Circle with center at the middle */
+    object-fit: cover;
   }
