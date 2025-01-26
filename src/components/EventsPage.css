@@ -1,0 +1,33 @@
+/* General Page Styling */
+.event-page {
+    padding: 40px 20px;
+    text-align: center;
+    background: linear-gradient(to bottom, #f8f9fa, #e3f2fd);
+  }
+  
+  .event-page-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #0047ab;
+    margin-bottom: 40px;
+  }
+  
+  /* Section Styling */
+  .events-section {
+    margin-bottom: 60px;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0047ab;
+    margin-bottom: 20px;
+  }
+  
+  /* Carousel Styling */
+  .event-carousel {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+  

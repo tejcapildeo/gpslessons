@@ -1,6 +1,7 @@
 import React from 'react';
 import './HomePage.css';
 import Typewriter from 'typewriter-effect';
+import { Link } from 'react-router-dom';
 
 const HomePage = () => {
   return (
@@ -20,18 +21,18 @@ const HomePage = () => {
         />
       </p>
       <div className="cards-section">
-        <div className="card">
-          <h2>Networking Events</h2>
-          <p>Connect with professionals and peers to grow your network.</p>
-        </div>
-        <div className="card">
-          <h2>Workshops</h2>
-          <p>Maybe change this to something else?</p>
-        </div>
-        <div className="card">
-          <h2>Competitions</h2>
-          <p>Participate in business case competitions and win prizes!</p>
-        </div>
+        <Link to="/events" className="card">
+          <h2>Upcoming Events</h2>
+          <p>Check out the exciting events happening soon!</p>
+        </Link>
+        <Link to="/about" className="card">
+          <h2>About the Club</h2>
+          <p>Learn more about the UTBSA and what we stand for!</p>
+        </Link>
+        <Link to="/links" className="card">
+          <h2>Links</h2>
+          <p>Everything you need to stay connected and not miss out!</p>
+        </Link>
       </div>
     </section>
   );

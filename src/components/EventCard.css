@@ -1,0 +1,48 @@
+.event-card {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    text-align: left;
+    width: 90%; /* Ensure consistent size in carousel */
+    height: 500px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .event-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .event-title {
+    font-size: 1.5rem;
+    color: #0047ab;
+    margin-bottom: 10px;
+  }
+  
+  .event-date,
+  .event-location {
+    font-size: 1rem;
+    color: gray;
+    margin-bottom: 5px;
+  }
+  
+  .event-text {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .event-link {
+    font-size: 1rem;
+    color: #0047ab;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s ease;
+  }
+  
+  .event-link:hover {
+    color: #002d72;
+  }
+  
