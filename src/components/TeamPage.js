@@ -87,7 +87,8 @@ const TeamPage = () => {
         {/* Directors (Profile Cards) */}
         {teamData[activeSection]?.directors?.length > 0 && (
           <>
-            <h2 className="team-subtitle">Directors</h2>
+            { activeSection === 'web' ? <h2 className="team-subtitle">Directors</h2> :
+             activeSection !== 'president' && <h2 className="team-subtitle">Director</h2>}
             <div className="team-card-container">
               {teamData[activeSection]?.directors.map((member, index) => (
                 <TeamMemberCard key={index} {...member} />

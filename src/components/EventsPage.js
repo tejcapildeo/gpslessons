@@ -12,7 +12,7 @@ const EventsPage = () => {
       date: 'March 21 2025, 4pm - 8pm',
       location: 'University of Toronto Student Commons',
       text: 'The UTBSA is excited to announce our upcoming breaking into the industry event! This will be very useful for anyone looking to secure summer internships or looking for assistance in their professional development. Stay tuned for more details. Click below to sign up!',
-      link: 'https://utbsa.org/signup',
+      link: '/signup',
     }
     // ,
     // {
@@ -41,7 +41,7 @@ const EventsPage = () => {
       title: 'Case Competition',
       date: 'November 21, 2024',
       location: 'Online',
-      text: "New date for the Case Competition announced! This is a great way to meet like minded people interested in business as well as sharpen your problem solving skills. Teams of 2-4 are permitted. Sign up quickly because the deadline is approaching! Link in bio!",
+      text: "The UTBSA Case Competition is a fantastic opportunity for students to collaborate with like-minded individuals who share a passion for business and strategic problem-solving. Participants will work in teams of 2 to 4 to analyze real-world business challenges, develop innovative solutions, and present their findings to a panel of judges.This competition is designed to sharpen your problem-solving abilities, enhance your analytical thinking, and provide valuable experience in business strategy and decision-making. Whether you’re looking to expand your network, challenge yourself intellectually, or gain hands-on experience, this is the perfect event to test and refine your skills in a dynamic and competitive environment. ",
     },
     {
       title: 'Fintech Forum',

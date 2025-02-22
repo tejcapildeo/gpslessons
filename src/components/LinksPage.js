@@ -4,9 +4,9 @@ import './LinksPage.css';
 
 const LinksPage = () => {
   const links = [
-    { title: 'Event Registration Form', url: 'https://utbsa.org/signup' },
+    { title: 'Event Registration Form', url: '/signup' },
     { title: 'Instagram', url: 'https://www.instagram.com/uoftbsa_official/' },
-    // { title: 'Netlify', url: 'https://netlify.com' },
+    { title: 'LinkedIn', url: 'https://www.linkedin.com/company/utba/posts/?feedView=all' },
     // { title: 'React Documentation', url: 'https://reactjs.org/docs/getting-started.html' },
   ];
 
