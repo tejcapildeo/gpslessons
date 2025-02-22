@@ -10,7 +10,7 @@ const EventCard = ({ title, date, location, text, link }) => {
       <p className="event-text">{text}</p>
       {link && (
         <a href={link} target="_blank" rel="noopener noreferrer" className="event-link">
-          Learn More
+          Sign up here
         </a>
       )}
     </div>

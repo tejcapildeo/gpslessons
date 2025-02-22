@@ -1,0 +1,19 @@
+.links-page {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .page-heading {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    color: #0047ab;
+  }
+  
+  .links-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  

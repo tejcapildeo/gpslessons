@@ -7,6 +7,8 @@ import AboutPage from './components/AboutPage';
 import EventsPage from './components/EventsPage';
 import TeamPage from './components/TeamPage';
 import LinksPage from './components/LinksPage';
+import SponsorsPage from './components/SponsorsPage';
+import GoogleFormPage from './components/GoogleFormPage';
 
 
 function App() {
@@ -22,6 +24,9 @@ function App() {
             <Route  path="/events" element={<EventsPage />}  />
             <Route  path="/team" element={<TeamPage />}  />
             <Route  path="/links" element={<LinksPage />}  />
+            <Route path='/sponsors' element={<SponsorsPage />} />
+            <Route path='/signup' element={<GoogleFormPage />} />
+
 
           </Routes>
 
