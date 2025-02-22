@@ -11,7 +11,7 @@ const teamSections = [
   { id: 'corporate', name: 'Corporate Relations' },
   { id: 'speakers', name: 'Speaker Series' },
   { id: 'web', name: 'Web/Communications' },
-  { id: 'interns', name: 'First-Year Interns' }
+  { id: 'interns', name: 'Interns' }
 ];
 
 // Team data (Replace with actual image URLs)
