@@ -1,80 +1,130 @@
 /* Styling for the header */
 .header {
-    position: sticky;
-    top: 0;
-    width: 100%;
-    background: linear-gradient(to right, #B2FFFF, #0047AB);
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    z-index: 100;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background: linear-gradient(to right, #B2FFFF, #0047AB);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  padding: 10px 20px;
+}
+
+/* Navbar styling */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Logo container */
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+  clip-path: circle(47% at 50% 50%);
+  object-fit: cover;
+}
+
+/* Navigation Links */
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Styling individual links */
+.nav-links li a {
+  text-decoration: none;
+  font-family: monospace;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect */
+.nav-links li a:hover {
+  color: #002d6a;
+}
+
+/* ✅ Sign-up button: Now styled properly */
+.signup-btn {
+  background-color: transparent;
+  color: white;
+  padding: 8px 16px;
+  border: 2px solid white;
+  border-radius: 20px;
+  font-weight: bold;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.signup-btn:hover {
+  background: white;
+  color: #0047AB;
+}
+
+/* Hamburger menu button */
+.menu-toggle {
+  display: none;
+  font-size: 1.8rem;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 850px) {
+  /* Show hamburger button */
+  .menu-toggle {
+      display: block;
   }
-  
-  /* Navbar styling */
-  .navbar {
-    display: flex;
-    justify-content: center;
-    padding: 1rem 0;
-  }
-  
-  /* List of links */
+
+  /* Hide normal navigation by default */
   .nav-links {
-    list-style-type: none;
-    display: flex;
-    gap: 7rem;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  /* Styling individual links */
-  .nav-links li a {
-    text-decoration: none;
-    font-family: monospace;
-    font-size: 1.5rem;
-    font-weight: 500;
-    
-    color: white;
-    transition: color 0.3s ease;
-  }
-  
-  /* Hover effect */
-  .nav-links li a:hover {
-    color: #0047AB;
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 70px;
+      left: 0;
+      width: 100%;
+      background: #0047AB;
+      padding: 20px 0;
+      text-align: center;
+      transition: transform 0.3s ease-in-out;
   }
 
-  .logo {
-    width: 80px; /* Adjust to desired size */
-    height: 80px; /* Same as width for a perfect circle */
-    clip-path: circle(47% at 50% 50%); /* Circle with center at the middle */
-    object-fit: cover;
+  /* Show navigation when menu is open */
+  .nav-links.nav-open {
+      display: flex;
   }
 
-  /* Mobile responsiveness */
-@media (max-width: 768px) {
-  .nav-links {
-      flex-direction: column; /* Stack links vertically */
-      gap: 1rem; /* Reduce spacing between links */
+  .nav-links li {
+      padding: 10px 0;
   }
 
   .nav-links li a {
-      font-size: 1.2rem; /* Adjust link size */
+      font-size: 1.2rem;
   }
 
-  .logo {
-      width: 60px; /* Reduce logo size */
-      height: 60px;
+  .signup-btn {
+      padding: 10px 20px;
+      font-size: 1rem;
+      border-width: 2px;
   }
 }
 
 @media (max-width: 480px) {
-  .nav-links {
-      gap: 0.5rem; /* Further reduce spacing */
-  }
-
-  .nav-links li a {
-      font-size: 1rem; /* Smaller font for smaller screens */
-  }
-
   .logo {
-      width: 50px; /* Further reduce logo size */
-      height: 50px;
+      width: 55px;
+      height: 55px;
   }
 }
