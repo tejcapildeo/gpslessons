@@ -4,7 +4,7 @@ import './SponsorsPage.css';
 
 const SponsorsPage = () => {
   const links = [
-    { title: 'Bounce', url: ''}
+    { title: 'Bounce', url: 'https://www.bouncelife.com/'}
     // { title: 'Netlify', url: 'https://netlify.com' },
     // { title: 'React Documentation', url: 'https://reactjs.org/docs/getting-started.html' },
   ];

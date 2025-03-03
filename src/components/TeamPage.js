@@ -27,7 +27,7 @@ const teamData = {
     executives: ['Saanch Madaan', 'Arushi Chhikara', 'Tarushi Kalra', 'Eleni Banta']
   },
   corporate: {
-    directors: [{ name: 'Victoria Lin', title: 'Corporate Relations Director', picture: '/headshots/victoria_lin.jpg' }],
+    directors: [{ name: 'Victoria Lin', title: 'Corporate Relations Director', picture: '/headshots/victoria.jpg' }],
     executives: ['Shifa Hossain Sarker', 'Denise Ng', 'Prisha Ghai', 'Kabir Jaggi']
   },
   finance: {
