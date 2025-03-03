@@ -6,7 +6,7 @@
     margin: 10px;
     text-align: left;
     width: 90%; /* Ensure consistent size in carousel */
-    height: 500px;
+    height: 650px;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
   }
   
