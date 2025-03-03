@@ -8,11 +8,24 @@ import 'slick-carousel/slick/slick-theme.css';
 const EventsPage = () => {
   const upcomingEvents = [
     {
-      title: 'Breaking into the industry - Event',
-      date: 'March 21 2025, 4pm - 8pm',
-      location: 'University of Toronto Student Commons',
-      text: 'The UTBSA is excited to announce our upcoming breaking into the industry event! This will be very useful for anyone looking to secure summer internships or looking for assistance in their professional development. Stay tuned for more details. Click below to sign up!',
-      link: '/signup',
+      title: "Breaking into the Industry - Event",
+      date: "March 21 2025, 4pm - 9pm",
+      location: "105 St. George St., 2nd floor, room 290, Rotman School of Management",
+      text: `The UTBSA will be hosting its Breaking Into The Industry event accompanied by the BMO Finance and Research Training Lab. If you are looking to secure an internship or bolster your resume with relevant skills, then this event is perfect for you!
+  
+  We will have guest speakers from top companies giving valuable insight into navigating the internship process. This is a great way to get guidance for your own journey as well as develop your professional network.
+  
+  There will be a workshop on Microsoft Excel, Bloomberg Terminal and a resume workshop. This way, you will learn how to market your skills and experiences in a way that is attractive to prospective employers.
+  
+  Dress Code: Business Casual
+  
+  Early Bird Tickets for $10 available on Monday 3rd March
+  Regular Tickets start at $15 available from Tuesday 4th March.
+  ONLY 50 SPACES SO SECURE YOUR SPOT ASAP.
+  Snacks provided!
+  
+  We look forward to seeing you there! Click below to sign up!`,
+      link: "/signup",
     }
     // ,
     // {

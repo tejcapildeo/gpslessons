@@ -17,34 +17,34 @@ const teamSections = [
 // Team data (Replace with actual image URLs)
 const teamData = {
   president: {
-    directors: [{ name: 'Aishwarya Gupta', title: 'President', picture: '/images/aishwarya_gupta.jpg' }]
+    directors: [{ name: 'Aishwarya Gupta', title: 'President', picture: '/headshots/aishwarya.jpg' }]
   },
   operations: {
-    directors: [{ name: 'Maria Pham Ngoc', title: 'Operations Director', picture: '/images/maria_pham_ngoc.jpg' }]
+    directors: [{ name: 'Maria Pham Ngoc', title: 'Operations Director', picture: '/headshots/maria.jpg' }]
   },
   marketing: {
-    directors: [{ name: 'Rahul Gopeesingh', title: 'Marketing Director', picture: '/images/rahul_gopeesingh.jpg' }],
+    directors: [{ name: 'Rahul Gopeesingh', title: 'Marketing Director', picture: '/headshots/rahul.jpeg' }],
     executives: ['Saanch Madaan', 'Arushi Chhikara', 'Tarushi Kalra', 'Eleni Banta']
   },
   corporate: {
-    directors: [{ name: 'Victoria Lin', title: 'Corporate Relations Director', picture: '/images/victoria_lin.jpg' }],
+    directors: [{ name: 'Victoria Lin', title: 'Corporate Relations Director', picture: '/headshots/victoria_lin.jpg' }],
     executives: ['Shifa Hossain Sarker', 'Denise Ng', 'Prisha Ghai', 'Kabir Jaggi']
   },
   finance: {
-    directors: [{ name: 'Ming Yang', title: 'Finance Director', picture: '/images/ming_yang.jpg' }]
+    directors: [{ name: 'Ming Yang', title: 'Finance Director', picture: '/headshots/Ming.jpg' }]
   },
   speakers: {
-    directors: [{ name: 'David Won', title: 'Speaker Series Director', picture: '/images/david_won.jpg' }],
+    directors: [{ name: 'David Won', title: 'Speaker Series Director', picture: '/headshots/david_won.jpg' }],
     executives: ['Yugam Puri']
   },
   web: {
     directors: [
-      { name: 'Lucy Zeng', title: 'Web Director', picture: '/images/lucy_zeng.jpg' },
-      { name: 'Tej Capildeo', title: 'Web Director', picture: '/images/tej_capildeo.jpg' }
+      { name: 'Lucy Zeng', title: 'Web Director', picture: '/headshots/lucy_zeng.jpg' },
+      { name: 'Tej Capildeo', title: 'Web Director', picture: '/headshots/tej.jpeg' }
     ]
   },
   conference: {
-    directors: [{ name: 'Afroze Kara', title: 'Conference Series Director', picture: '/images/afroze_kara.jpg' }],
+    directors: [{ name: 'Afroze Kara', title: 'Conference Series Director', picture: '/headshots/afroze.jpg' }],
     executives: ['Rheanna Zhu', 'Nicole Sy', 'Jevon Ariel', 'Bell Corapcioglu', 'Josua Kim']
   },
   interns: {
