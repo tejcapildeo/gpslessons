@@ -6,7 +6,7 @@
     justify-content: center;
     text-align: center;
     height: 100vh;
-    background: linear-gradient(to right, #f8f9fa, #e3f2fd);
+    /* background: linear-gradient(to right, #f8f9fa, #e3f2fd); */
     color: navy;
     padding: 20px;
 }

@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const HomePage = () => {
   return (
     <section className="home">
-      <h1 className="home-title">UofT Business Student Association</h1>
+      <h1 className="home-title">Gopeesingh Lessons</h1>
       <p className="home-slogan">
         <Typewriter
           options={{

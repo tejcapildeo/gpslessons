@@ -22,10 +22,10 @@ const Header = () => {
         {/* Navigation Links */}
         <ul className={`nav-links ${menuOpen ? "nav-open" : ""}`}>
           <li><Link to="/about">About Us</Link></li>
-          <li><Link to="/events">Events</Link></li>
-          <li><Link to="/team">Meet the Team</Link></li>
+          <li><Link to="/events">Crash Course</Link></li>
+          {/* <li><Link to="/team">Meet the Team</Link></li> */}
           <li><Link to="/links">Links</Link></li>
-          <li><Link to="/sponsors">Sponsors</Link></li>
+          {/* <li><Link to="/sponsors">Sponsors</Link></li> */}
           <li><Link to="/signup" className="signup-btn">Sign up</Link></li>
         </ul>
       </nav>
