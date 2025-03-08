@@ -4,7 +4,7 @@ import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header'
 import HomePage from './components/HomePage';
 import AboutPage from './components/AboutPage';
-import EventsPage from './components/EventsPage';
+import CrashCoursePage from './components/CrashCoursePage';
 import TeamPage from './components/TeamPage';
 import LinksPage from './components/LinksPage';
 import SponsorsPage from './components/SponsorsPage';
@@ -21,7 +21,7 @@ function App() {
 
             <Route  path="/" element={<HomePage />}  />
             <Route  path="/about" element={<AboutPage />}  />
-            <Route  path="/events" element={<EventsPage />}  />
+            <Route  path="/crashcourse" element={<CrashCoursePage />}  />
             <Route  path="/team" element={<TeamPage />}  />
             <Route  path="/links" element={<LinksPage />}  />
             <Route path='/sponsors' element={<SponsorsPage />} />
