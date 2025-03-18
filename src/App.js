@@ -2,13 +2,12 @@
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header'
-import HomePage from './components/HomePage';
-import AboutPage from './components/AboutPage';
-import CrashCoursePage from './components/CrashCoursePage';
-import TeamPage from './components/TeamPage';
-import LinksPage from './components/LinksPage';
-import SponsorsPage from './components/SponsorsPage';
-import GoogleFormPage from './components/GoogleFormPage';
+import HomePage from './pages/HomePage';
+import CrashCoursePage from './pages/CrashCoursePage';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import MeetTeam from './pages/MeetTeam';
+
 
 
 function App() {
@@ -20,12 +19,11 @@ function App() {
           <Routes>
 
             <Route  path="/" element={<HomePage />}  />
-            <Route  path="/about" element={<AboutPage />}  />
+            <Route  path="/about" element={<About />}  />
             <Route  path="/crashcourse" element={<CrashCoursePage />}  />
-            <Route  path="/team" element={<TeamPage />}  />
-            <Route  path="/links" element={<LinksPage />}  />
-            <Route path='/sponsors' element={<SponsorsPage />} />
-            <Route path='/signup' element={<GoogleFormPage />} />
+            <Route  path="/contact" element={<Contact />}  />
+            <Route  path="/team" element={<MeetTeam />}  />
+
 
 
           </Routes>
